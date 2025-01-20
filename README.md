@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0001-two-sum) |
+| [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -89,4 +90,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
+## Matrix
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
 <!---LeetCode Topics End-->
