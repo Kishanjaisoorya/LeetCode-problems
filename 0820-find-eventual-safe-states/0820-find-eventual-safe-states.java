@@ -1,47 +1,41 @@
 class Solution {
 
+  public boolean dfs(int node,int[][]mat,int vis[],int pvis[],int check[]){
+    vis[node]=1;
+    pvis[node]=1;
+
+    for(int x:mat[node]){
+        if(vis[x]!=1){
+            if(dfs(x,mat,vis,pvis,check)){
+                return true;
+            }
+        }
+        else if(pvis[x]==1){
+            return true;
+        }
+    }
+    pvis[node]=0;
+    check[node]=1;
+    return false;
+  }
+
     public List<Integer> eventualSafeNodes(int[][] graph) {
-        int n = graph.length;
-        int[] indegree = new int[n];
-        List<List<Integer>> adj = new ArrayList<>();
-
-        for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
+        int vis []=new int[graph.length];
+        int check[]=new int[graph.length];
+        int pvis[]=new int[graph.length];
+    
+    for(int i = 0;i<graph.length;i++){
+        if(vis[i]!=1){
+            boolean test = dfs(i,graph,vis,pvis,check);
         }
-
-        for (int i = 0; i < n; i++) {
-            for (int node : graph[i]) {
-                adj.get(node).add(i);
-                indegree[i]++;
-            }
+    }
+    ArrayList<Integer>ans=new ArrayList<>();
+    for(int i = 0;i<graph.length;i++){
+        if(check[i]==1){
+            ans.add(i);
         }
-
-        Queue<Integer> q = new LinkedList<>();
-        for (int i = 0; i < n; i++) {
-            if (indegree[i] == 0) {
-                q.add(i);
-            }
-        }
-
-        boolean[] safe = new boolean[n];
-        while (!q.isEmpty()) {
-            int node = q.poll();
-            safe[node] = true;
-
-            for (int neighbor : adj.get(node)) {
-                indegree[neighbor]--;
-                if (indegree[neighbor] == 0) {
-                    q.add(neighbor);
-                }
-            }
-        }
-
-        List<Integer> safeNodes = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            if (safe[i]) {
-                safeNodes.add(i);
-            }
-        }
-        return safeNodes;
+    }
+    return ans;
+        
     }
 }
