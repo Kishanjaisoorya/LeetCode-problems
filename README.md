@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0283-move-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0001-two-sum) |
+| [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1502-construct-k-palindrome-strings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2509-minimize-xor](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/2533-bitwise-xor-of-all-pairings) |
@@ -133,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -162,9 +166,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
