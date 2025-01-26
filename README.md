@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0283-move-zeroes](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0283-move-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1396-count-servers-that-communicate](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1396-count-servers-that-communicate) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0283-move-zeroes) |
 ## Math
 |  |
 | ------- |
