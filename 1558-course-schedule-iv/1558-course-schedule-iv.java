@@ -1,48 +1,38 @@
 class Solution {
-    private boolean isPrerequisite(
-        Map<Integer, List<Integer>> adjList,
-        boolean[] visited,
-        int src,
-        int target
-    ) {
-        visited[src] = true;
-
-        if (src == target) {
-            return true;
+    public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
+        ArrayList graph[] = new ArrayList[numCourses];
+        List<Boolean>res = new ArrayList<>();
+        
+        for(int num = 0 ; num<numCourses ; num++){
+            graph[num] = new ArrayList<>();
         }
-
-        boolean answer = false;
-        List<Integer> neighbors = adjList.getOrDefault(src, new ArrayList<>());
-        for (int adj : neighbors) {
-            if (!visited[adj]) {
-                answer =
-                    answer || isPrerequisite(adjList, visited, adj, target);
+        
+        for(int i = 0 ; i<prerequisites.length ; i++){
+            for(int j = 0 ; j<prerequisites[0].length ; j++){
+                graph[prerequisites[i][0]].add(prerequisites[i][1]);
             }
         }
-        return answer;
-    }
-
-    public List<Boolean> checkIfPrerequisite(
-        int numCourses,
-        int[][] prerequisites,
-        int[][] queries
-    ) {
-        Map<Integer, List<Integer>> adjList = new HashMap<>();
-
-        for (int[] edge : prerequisites) {
-            adjList
-                .computeIfAbsent(edge[0], k -> new ArrayList<>())
-                .add(edge[1]);
+        
+        boolean [][] status = new boolean[numCourses][numCourses];
+        for(int i = 0 ; i<numCourses ; i++){
+            dfs(i, graph , status , i);
         }
-
-        List<Boolean> result = new ArrayList<>();
-        for (int i = 0; i < queries.length; i++) {
-            boolean[] visited = new boolean[numCourses];
-            result.add(
-                isPrerequisite(adjList, visited, queries[i][0], queries[i][1])
-            );
+        
+        for(int q[]:queries){
+            int parent = q[0];
+            int child = q[1];
+            res.add(status[parent][child]);
         }
-
-        return result;
+        
+        return res;
     }
+    public void dfs(int node  , ArrayList graph[] , boolean[][]status , int par){
+        status[par][node] = true;
+        
+        for(int i = 0 ; i<graph[node].size() ; i++){
+            int child = (int)graph[node].get(i);
+            if(!status[par][child])
+                dfs(child, graph , status , par);
+        }
+    }   
 }
