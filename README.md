@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0283-move-zeroes) |
 ## Math
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
