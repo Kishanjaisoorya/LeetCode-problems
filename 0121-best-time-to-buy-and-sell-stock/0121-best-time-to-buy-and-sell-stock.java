@@ -3,7 +3,7 @@ class Solution {
         int n = prices.length;
         int l = prices[0];
         int a = 0;
-        for (int i = 1; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             if (prices[i] < l) {
                 l = prices[i];
             } 
