@@ -1,67 +1,51 @@
 class Solution {
-
-    public boolean findPartitions(
-        int startIndex,
-        int sum,
-        String stringNum,
-        int target,
-        int[][] memo
-    ) {
-        if (startIndex == stringNum.length()) {
-            return sum == target;
+    public int punishmentNumber(int n) {
+        int sum =0;
+        for(int i=1;i<=n;i++){
+            int sqr = i*i;
+            if(i == 1000 || isPartition(sqr,i)){
+                sum += sqr;
+                //System.out.println(i+" "+sqr);
+            } 
         }
-
-        if (sum > target) return false;
-
-        if (memo[startIndex][sum] != -1) return memo[startIndex][sum] == 1;
-
-        boolean partitionFound = false;
-
-        for (
-            int currentIndex = startIndex;
-            currentIndex < stringNum.length();
-            currentIndex++
-        ) {
-            String currentString = stringNum.substring(
-                startIndex,
-                currentIndex + 1
-            );
-            int addend = Integer.parseInt(currentString);
-
-            partitionFound =
-                partitionFound ||
-                findPartitions(
-                    currentIndex + 1,
-                    sum + addend,
-                    stringNum,
-                    target,
-                    memo
-                );
-            if (partitionFound) {
-                memo[startIndex][sum] = 1;
-                return true;
+        return sum;
+    }
+    boolean isPartition(int num, int target){
+        char val[] = String.valueOf(num).toCharArray();
+        int len = val.length;
+        boolean dp[][] = new boolean[len+1][1001];
+        dp[0][0] = true;
+        for(int i=0; i<len; i++){
+            int sum = val[i]-'0';
+            populatePossibleSums(sum, dp, i-1, i, target);
+            if(i-1 >= 0){
+                sum += (val[i-1]-'0')*10;
+                populatePossibleSums(sum, dp, i-2, i, target);
+            }
+            if(i-2 >= 0){
+                 sum += (val[i-2]-'0')*100;
+                populatePossibleSums(sum, dp, i-3, i, target);
             }
         }
-        memo[startIndex][sum] = 0;
+        if(dp[len][target]){
+            return true;
+        }
         return false;
     }
 
-    public int punishmentNumber(int n) {
-        int punishmentNum = 0;
-
-        for (int currentNum = 1; currentNum <= n; currentNum++) {
-            int squareNum = currentNum * currentNum;
-            String stringNum = Integer.toString(squareNum);
-
-            int[][] memoArray = new int[stringNum.length()][currentNum + 1];
-            for (int[] row : memoArray) {
-                java.util.Arrays.fill(row, -1);
-            }
-
-            if (findPartitions(0, 0, stringNum, currentNum, memoArray)) {
-                punishmentNum += squareNum;
+    void populatePossibleSums(int val, boolean dp[][], int idx, int currIdx, int target){
+        for(int i=val; i<=target; i++){
+            if(dp[idx+1][i-val]){
+                dp[currIdx+1][i] = true;
             }
         }
-        return punishmentNum;
     }
+
+    //recursive
+    boolean isPartition1(int num,int tar){
+        if(tar < 0 || num < tar) return false;
+        if(num == tar) return true;
+        return isPartition(num/10, tar-num%10) || isPartition(num/100, tar-num%100) ||isPartition(num/1000, tar-num%1000);
+    }
+    
 }
