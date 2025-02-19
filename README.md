@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
 | [0189-rotate-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0001-two-sum) |
+| [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
 | [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1160-letter-tile-possibilities) |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1160-letter-tile-possibilities) |
 | [1502-construct-k-palindrome-strings](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1502-construct-k-palindrome-strings) |
@@ -105,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Rolling Hash
 |  |
@@ -246,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
 ## Simulation
 |  |
 | ------- |
@@ -273,4 +278,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/2802-find-the-punishment-number-of-an-integer) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
