@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0283-move-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
+| [0792-binary-search](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0792-binary-search) |
 | [0854-making-a-large-island](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0854-making-a-large-island) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1364-tuple-with-same-product](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1364-tuple-with-same-product) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
+| [0792-binary-search](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0792-binary-search) |
 ## Dynamic Programming
 |  |
 | ------- |
