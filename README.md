@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0407-trapping-rain-water-ii) |
 | [0792-binary-search](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0792-binary-search) |
 | [0854-making-a-large-island](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0854-making-a-large-island) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1364-tuple-with-same-product](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1396-count-servers-that-communicate) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0001-two-sum) |
 | [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
 | [0268-missing-number](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0268-missing-number) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0952-word-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/1364-tuple-with-same-product) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 ## Sorting
 |  |
 | ------- |
@@ -290,4 +293,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0139-word-break) |
+## Tree
+|  |
+| ------- |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Kishanjaisoorya/LeetCode-problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 <!---LeetCode Topics End-->
