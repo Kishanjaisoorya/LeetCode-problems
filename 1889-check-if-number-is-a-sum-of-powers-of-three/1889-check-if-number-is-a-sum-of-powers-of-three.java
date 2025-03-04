@@ -4,7 +4,7 @@ class Solution {
             if(n==1){
                 return true;
             }
-            if(n % 3 == 2) {
+            else if(n % 3 == 2) {
                 return false;
             }
             n /= 3;
